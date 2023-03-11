@@ -47,7 +47,7 @@ if(randomChoice==1) {
 
 	// -- write your own answer
  if(randomChoice==3) {
-	 JOptionPane.showMessageDialog(null,"You should ask your parents or friends maybe?");
+	 JOptionPane.showMessageDialog(null,"You should ask your parents or friends");
  }
 
 }
