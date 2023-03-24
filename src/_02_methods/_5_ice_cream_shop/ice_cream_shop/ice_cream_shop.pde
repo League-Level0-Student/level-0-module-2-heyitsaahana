@@ -18,7 +18,7 @@ makeIceCreamCone();
 addSprinkle(100);
      // Write code to add a cherry to the top of your ice cream. Hint: ellipse
 fill(#EA1519);
-ellipse(50,50,60,60);
+ellipse(250,50,55,55);
 }
 
 /***********  These are methods for you to use. DON'T CHANGE CODE BELOW THIS LINE !!!   *****************/
