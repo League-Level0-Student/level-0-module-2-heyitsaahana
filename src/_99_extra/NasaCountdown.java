@@ -17,24 +17,34 @@ import game_tools.Sound;
 public class NasaCountdown {
     public static void main(String[] args) throws InterruptedException {
         // 2. Use a pop-up to ask the user where to start counting from
-    JOptionPane.showInputDialog("Where should we start counting from");
+
+   String c=JOptionPane.showInputDialog("Where should we start counting from");
     
-    
+ 
         // 3. Change the countdown to use the new starting point
     	
         // 1. Print a countdown from 10 to 0 on the console
-     
-            // 4. Use the Sound.speak method to hear the countdown.
-      
-            // 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
-    
-        // 5. when the counting is done, speak "blastoff!"
-    }  
+    	int a=Integer.parseInt(c);
     	
-    
+    	for(  ;   a>0  ;  a--) {
+    		
+    		
+    	Sound.speak(  String.valueOf(a)     );	
+    	Thread.sleep(1000);
+   
+    		
+    	}
+    	JOptionPane.showMessageDialog(null,"blastoff!");
+            // 4. Use the Sound.speak method to hear the countdown.
+ 
+            // 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
+   
+            // 5. when the counting is done, speak "blastoff!"
+    }  
     }
     
-    }
+    
+    
 
 
 
