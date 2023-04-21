@@ -9,12 +9,14 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+import game_tools.Sound;
+
 public class ThatWasEasy extends MouseAdapter {
 
     @Override
     public void mouseClicked(MouseEvent arg0) {
         /* Use the Sound.speak method to make the button work. */
-        
+       Sound.speak("That was easy");
     }
 
     public static void main(String[] args) {
